@@ -1,0 +1,53 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-body {
+    background: url(../image/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container {
+	background: #f0ffff;
+	width: 350px;
+	height: 500px;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 1%;
+}
+.main-body img {
+    width: 63%;
+    display: block;
+    margin: 0 auto;
+}
+.main-body form {
+    width: 100%;
+}
+input[type=text],
+input[type=password]{
+	width: 100%;
+	padding: 15px 10px;
+	margin: 8px auto;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+button {
+	color: white;
+	border: none;
+	cursor: pointer;
+	background-color: #008793;
+	}
+button:hover{
+	opacity: .8;
+}
